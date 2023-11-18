@@ -1,0 +1,63 @@
+.open-modal-button{
+    background-color: #3724e0;
+    color: #fdfbfb;
+    border: none !important;
+    padding: 10px 20 px;
+    text-align: center;
+    text-decoration:none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 20px;
+    cursor:pointer;
+    
+}
+/*estilo modal oculto*/
+.modal{
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width 100%;
+    height: 100%;
+    background-color: rgb(0, 0, 0,0.7);
+
+
+}
+/*Estilo del contenido del modal*/
+.modal-content{
+    
+    background-color: #f2f2f2;
+    margin: 15%auto;
+    padding: 20px;
+    width: 70%;
+
+}
+/*Estilo de boton para cerrar el modal*/
+.close-button{
+    float: right;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    font-size: 16px;
+    cursor: pointer;
+}
+/*Aplicar el estilo modal cuando el id modal esta en targert*/
+
+:target{
+    display: block;
+
+
+}
+body{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+
+}
+header{
+    background-color: #3724e0;
+    color: #FFF;
+    text-align: center;
+    padding: 20px;
+}
